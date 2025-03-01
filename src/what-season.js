@@ -16,9 +16,6 @@ function getSeason(date) {
     return "Unable to determine the time of year!";
   }
 
-  // if (!(date instanceof Date)) {
-  //   throw new Error("Invalid date!");
-  // }
   try {
     date.toUTCString()
   } catch {
